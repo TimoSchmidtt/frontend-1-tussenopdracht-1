@@ -65,6 +65,9 @@ nav a:visited{
     gap: 50px;
     padding: 30px;
 }
+#omschrijving p{
+    line-height: 1.5rem;
+}
 #rechts-omschrijving{
     background-color: #90e0efff;
     padding: 15px;
