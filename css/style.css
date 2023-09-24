@@ -5,7 +5,11 @@ pacific-cyan: #00b4d8ff;
 non-photo-blue: #90e0efff;
 light-cyan: #caf0f8ff;
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
 body{
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     background-color: #caf0f8ff;
 }
@@ -49,6 +53,15 @@ nav a:visited{
     border-top: 2px solid #03045eff;
     border-bottom: 2px solid #03045eff;
 }
+h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4rem;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: 'Playfair Display', sans-serif;
+}
 #hoofdproduct img{
     max-width: 250px;
     background-color: #90e0efff;
@@ -58,12 +71,30 @@ nav a:visited{
     display: flex;
     gap: 20px;
 }
+#hoofdproduct-img{
+    flex: 2;
+}
+#hoofdproduct-text{
+    flex: 1;
+}
+#hoofdproduct-link{
+    text-decoration: none;
+    color: #caf0f8ff;
+    border: 1px solid #03045eff;
+    background-color: #03045eff;
+    border-radius: 5px;
+    padding: 5px 250px;
+}
 #omschrijving{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
+    align-items: center;
     gap: 50px;
-    padding: 30px;
+    margin: 50px;
+}
+#omschrijving p{
+    line-height: 1.5rem;
 }
 #rechts-omschrijving{
     background-color: #90e0efff;
